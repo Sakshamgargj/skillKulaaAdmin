@@ -1,0 +1,12 @@
+{
+    "build": {
+      "command": "npm install"
+    },
+    "start": {
+      "command": "node index.js"
+    },
+    "routes": [
+      { "src": "/(.*)", "dest": "/" }
+    ]
+  }
+  
